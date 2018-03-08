@@ -24,12 +24,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void addPerson(View view) {
             Intent intent = new Intent(this, PersonActivity.class);
-            startActivityForResult(intent, 111);  // you can use any number other than 111
+            startActivityForResult(intent, Keys.NUMBER);  // you can use any number other than 111
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == 111 && resultCode == RESULT_OK) {
+        if (requestCode == Keys.NUMBER && resultCode == RESULT_OK) {
             Person person = (Person) data.getSerializableExtra(Keys.PERSON);
             nameGet=person.getName();
             ageGet=person.getAge();
