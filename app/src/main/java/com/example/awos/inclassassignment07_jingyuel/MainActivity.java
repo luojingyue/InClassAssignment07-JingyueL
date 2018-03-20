@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             nameGet=person.getName();
             ageGet=person.getAge();
             swimGet=person.isCanSwim();
-            String newMessage="Name: "+nameGet+"\nAge: "+ageGet+"Can swim? "+swimGet+"\n\n\n";
+            String newMessage="Name: "+nameGet+"\nAge: "+ageGet+"\nCan swim? "+swimGet+"\n\n\n";
             finalMessage=finalMessage+newMessage;
             showArea.setText(finalMessage);
         }

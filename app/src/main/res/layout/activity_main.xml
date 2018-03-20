@@ -9,7 +9,7 @@
     <ScrollView
         android:id="@+id/person"
         android:layout_width="match_parent"
-        android:layout_height="450dp"
+        android:layout_height="600dp"
         android:fillViewport="true">
 
         <LinearLayout
@@ -31,7 +31,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:text="hello"
                 android:textSize="25dp" />
 
 
